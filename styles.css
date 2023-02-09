@@ -1,9 +1,49 @@
 body {
     margin: 0;
-    background-color: blueviolet;
+   
 }
 
-.site-title {
-    margin: 0;
-    background-color: palevioletred;
+header {
+    padding: 20px, 10px;
+    border-bottom: 1px solid blue;
 }
+
+/*aligning the icon with the links*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 140px;
+    display: block;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    /*removing padding and margin*/
+    margin: 0;
+    padding: 0;
+    /*when you want space from the border*/
+    padding-right: 10%;
+}
+
+/*calling a class within the <a> tag*/
+.menu-item a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.menu-item a:hover {
+    color: blue;
+}
+
+/*homework--- add other menu items and decorate them*/
